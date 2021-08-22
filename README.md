@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MrCartaaa
 - 👀 I’m interested in back end development
-- 🌱 I’m currently learning Flutter, Dart Framework
+- 🌱 I’m currently learning Flutter, Dart Framework (for a personal project)
 - 📫 How to reach me ...
   carter@steelecompany.ca
 
