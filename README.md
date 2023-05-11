@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MrCartaaa
-- 👀 I’m interested in back end development
-- 🌱 I’m currently learning Flutter, Dart Framework (for a personal project)
+- 👀 I’m interested in Accounting, Finance and Statstics related development in Python
+- 🌱 I’m currently learning K8's, docker-swarm and AWS
 - 📫 How to reach me ...
   carter@maetech.ca
 
