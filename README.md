@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MrCartaaa
 - 👀 I’m interested in Accounting, Finance and Statstics related development in Python
-- 🌱 I’m currently learning K8's, docker-swarm and AWS
+- 🌱 I’m currently learning Rust & K8's
 - 📫 How to reach me ...
   carter@maetech.ca
 
