@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MrCartaaa
-- 👀 I’m interested in Accounting, Finance and Statstics related development in Python
-- 🌱 I’m currently learning Rust & K8's
+- 👀 I’m interested in Accounting, Finance and Statstics related development in Rust
+- 🌱 I’m currently learning TensorFlow & K8's
 - 📫 How to reach me ...
   carter@maetech.ca
 
