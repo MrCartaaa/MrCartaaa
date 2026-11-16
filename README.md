@@ -74,7 +74,6 @@ babysitting.
 | [`zero2prod`](https://github.com/MrCartaaa/zero2prod) | Rust — zero to production service experiments |
 | [`atomics_locks`](https://github.com/MrCartaaa/atomics_locks) | Rust — lock-free atomics playground |
 | [`cdn-tax`](https://github.com/MrCartaaa/cdn-tax) | Rust — tax computation on CDN billing |
-| [`pdf-viewer`](https://github.com/MrCartaaa/pdf-viewer) | Pure-Python PDF viewer |
 
 
 ---
