@@ -19,8 +19,8 @@ frontend, deployed with GitOps, and coordinated by an autonomous agent crew.
 
 ## [Mae-Technologies](https://github.com/Mae-Technologies) — the platform, open core
 
-The architecture rests on four open pillars. The private `ru_*` service suite that
-runs statbook.io — API, ledger, reconciliation, reporting — is built on top of them.
+The architecture rests on four open pillars. The private service suite that runs
+statbook.io — API, ledger, reconciliation, reporting — is built on top of them.
 
 | Pillar | What it does |
 |---|---|
