@@ -75,7 +75,7 @@ babysitting.
 | [`atomics_locks`](https://github.com/MrCartaaa/atomics_locks) | Rust — lock-free atomics playground |
 | [`cdn-tax`](https://github.com/MrCartaaa/cdn-tax) | Rust — tax computation on CDN billing |
 | [`pdf-viewer`](https://github.com/MrCartaaa/pdf-viewer) | Pure-Python PDF viewer |
-| [`llama`](https://github.com/MrCartaaa/llama) | llama.cpp deployments — local LLM serving on 2× TITAN RTX |
+
 
 ---
 
