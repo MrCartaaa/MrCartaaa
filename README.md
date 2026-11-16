@@ -38,10 +38,30 @@ runs statbook.io — API, ledger, reconciliation, reporting — is built on top 
 
 ## Agent team
 
-The platform is operated by an autonomous four-seat agent crew running 24/7 on a
-two-GPU box: **Aldric** (manager), **Émile** (sub-manager), **Luca** (coder),
-**Soren** (reviewer). Work routes through a shared inbox state machine; a root
-thermal guard keeps the GPUs, drives, and CPU in safe bands. I own the merge button.
+**The platform is operated 24/7 by a four-seat autonomous crew** running on a
+two-GPU box. Work flows through a shared inbox state machine — no seat acts on
+assumption, and nothing moves without a record.
+
+| Seat | Role | Mandate |
+|---|---|---|
+| **Aldric** | Manager | Talks to me. Splits work, tracks state, opens PRs, reports status. Never writes code. |
+| **Émile** | Sub-manager | Claims work from the inbox and routes it — code to Luca, review to Soren. |
+| **Luca** | Coder | Implements the issue, runs the gates (analyze, test, build), pushes the branch, opens the PR, then flips the ticket to done. |
+| **Soren** | Reviewer | Reviews the actual PR and leaves a formal GitHub review — approve or request changes. |
+
+**Chain:** `assigned → in_progress → done → in_review → review_passed → approved → pr_open → merged`
+
+Every transition has a named actor and lands in a shared audit log. Three invariants
+keep it honest:
+
+- the coder opens the PR **before** `done` — what gets reviewed is what gets merged
+- the reviewer's verdict is a GitHub review, not a chat message
+- `merged` is only recorded after I merge; the agents never touch `main`
+
+**Keeping the machine quiet:** a root-level thermal guard watches the drives, GPUs,
+and CPU every two minutes — when the box runs hot it holds the seats, and releases
+them when it cools. Each seat wakes on a 30-minute systemd timer. No polling, no
+babysitting.
 
 ---
 
